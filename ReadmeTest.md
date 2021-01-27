@@ -1,8 +1,8 @@
-# Project Title
+# $(data.title)
 
 ***
 
-$(data.title)
+
 
 ## Table of Contents
 * [Description](#Description)
@@ -54,4 +54,5 @@ $(data.tests)
 
 ***
 
-$(data.questions)
+$(data.github)
+$(data.email)
