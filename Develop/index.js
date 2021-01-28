@@ -9,8 +9,14 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
       type: 'input',
+      default: 'Project Title',
       name: 'title',
       message: 'What is your project title?',
+    },
+    {
+      type: 'input',
+      message: 'Please provide the name of the repository you use on GitHub for your project (case-sensitive)',
+      name: 'repo',
     },
     {
       type: 'input',
@@ -29,7 +35,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'contributing',
+      name: 'contributions',
       message: 'Enter contribution guidelines for your project. How can other developers contribute to your project?',
     },
     {
@@ -51,7 +57,7 @@ const questions = [
     {
       type: 'input',
       name: 'email',
-      message: 'Enter your email address.',
+      message: 'Please provide an email adress users may use to contact you.',
     },
   ]);
 // TODO: Create a function to write README file
@@ -68,18 +74,17 @@ function writeToFile(fileName, data) {
 const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
-function init() {}
-const init = () => {
-    promptUser().then((answers) => {
-      try {
-        const md = generateMd(answers);
-        fs.writeFileSync('readme.md', md);
-        console.log('Successfully wrote to readme.md');
-      } catch (error) {
-        console.log(error);
-      }
-    });
-  };
+async function init() {
+  try {
+      const answers = await inquirer.prompt(questions);
+      const markdown = generateMarkdown(answers);
+      console.log(markdown);
+
+      await writeFileAsync('README.md', markdown);
+  } catch (error) {
+      console.log(error);
+  }
+};
 
 // Function call to initialize app
 init();

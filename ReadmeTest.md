@@ -1,58 +1,56 @@
 # $(data.title)
 
-***
-
-
-
-## Table of Contents
-* [Description](#Description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#Questions)
-
-
 ## **Description**
-
-***
 
 $(data.description)
 
-## **Installation**
 
 ***
+
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Testing](#tests)
+* [Contributions](#contributions)
+* [License](#license)
+* [Questions](#Questions)
+
+
+## **Installation**
 
 $(data.installation)
 
-## **Usage**
-
 ***
+
+## **Usage**
 
 $(data.usage)
 
-## **License**
-
 ***
 
-$(data.license)
+## **Contributions**
 
-## **Contributing**
+$(data.contributions)
 
 ***
-
-$(data.contributing)
 
 ## **Tests**
 
+$(data.tests)
+
 ***
 
-$(data.tests)
+## **License**
+
+$(data.license)
+
+***
 
 ## **Questions**
 
-***
 
-$(data.github)
-$(data.email)
+[GitHub](https://www.github.com/${data.gitname})
+
+
+Questions? Email me at: $(data.email)
