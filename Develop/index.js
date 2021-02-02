@@ -47,7 +47,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'Choose licensing information for your project.',
-      choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+      choices: ['GNU_AGPLv3', 'GNU_GPLv3', 'GNU_LGPLv3', 'Mozilla2.0', 'Apache2.0', 'MIT', 'Boost1.0', 'Unlicense'],
       },
     {
       type: 'input',
@@ -59,7 +59,7 @@ const questions = [
       name: 'email',
       message: 'Please provide an email adress users may use to contact you.',
     },
-  ]);
+  ];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
