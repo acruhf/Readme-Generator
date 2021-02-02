@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ## **License**
   
   
-    ![GitHub](https://img.shields.io/badge/license-${data.license}-purple?style=plastic)
+  ![GitHub](https://img.shields.io/badge/license-${data.license}-purple?style=plastic)
   
   ***
   
