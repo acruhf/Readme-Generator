@@ -3,6 +3,8 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
+  ![GitHub](https://img.shields.io/badge/license-${data.license}-purple?style=plastic)
+
   ## **Description**
   
   ${data.description}
@@ -48,6 +50,7 @@ function generateMarkdown(data) {
   
   
   ![GitHub](https://img.shields.io/badge/license-${data.license}-purple?style=plastic)
+  
   
   ***
   
