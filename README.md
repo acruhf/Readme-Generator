@@ -30,6 +30,7 @@
   
   Answer each prompt briefly and descriptively to create a README that's up to professional standards.
   
+  [Google](https://drive.google.com/file/d/1o1nlux9rqyVlYLVmBPJFslvpX7KvADi8/view?usp=sharing)
   ***
   
   ## **Contributions**
@@ -55,7 +56,7 @@
   ## **Questions**
   
   
-  [GitHub](https://www.github.com/undefined)
+  [GitHub](https://www.github.com/acruhf)
   
   
   Questions? Email me at: austin.ruhf@gmail.com
