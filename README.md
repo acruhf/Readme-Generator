@@ -30,7 +30,7 @@
   
   Answer each prompt briefly and descriptively to create a README that's up to professional standards.
   
-  [Google](https://drive.google.com/file/d/1o1nlux9rqyVlYLVmBPJFslvpX7KvADi8/view?usp=sharing)
+  [Video Demo](https://drive.google.com/file/d/1o1nlux9rqyVlYLVmBPJFslvpX7KvADi8/view?usp=sharing)
   ***
   
   ## **Contributions**
